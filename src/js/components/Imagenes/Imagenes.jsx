@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Imagen from "../Imagen/Imagen";
+import "./Imagenes.css";
 
 class Imagenes extends Component{
   showImages(){

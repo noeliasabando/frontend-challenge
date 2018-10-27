@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Imagen.css";
 
 
 class Imagen extends Component{
@@ -10,7 +11,7 @@ class Imagen extends Component{
     let image = this.props.data;
     return(
       <div className="imagen">
-        <img src={`https://farm${image.farm}.staticflickr.com/${image.server}/${image.id}_${image.secret}.jpg`} alt="images"/>
+        <img className="image" src={`https://farm${image.farm}.staticflickr.com/${image.server}/${image.id}_${image.secret}.jpg`} alt="images"/>
         <p>Título: </p>
         <p>Descripción:</p>
         <p>Fecha de Post:</p>
