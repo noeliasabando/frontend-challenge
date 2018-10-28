@@ -56,15 +56,15 @@ class Imagen extends Component {
 
           <Modal isOpen={this.state.modal} toggle={this.toggle}>
             <ModalHeader toggle={this.toggle}>
-              <p>Título: {title}</p>
-              <p>Usuario: {user}</p>
-              <p>Tags: {tags}</p>
+              <p className="titleModal">Título: {title}</p>
+              <p className="userModal">Usuario: {user}</p>
+              <p className="tagsModal">Tags: {tags}</p>
             </ModalHeader>
             <ModalBody>
               <img src={`https://farm${image.farm}.staticflickr.com/${image.server}/${image.id}_${image.secret}.jpg`} alt="image" className="image" />
             </ModalBody>
             <ModalFooter className="text-left">
-              <p className="modalFotter">Publicada: {published} <br /> Likes: {likes} <br /> Descripción: {description}</p>
+              <p className="modalFotter">Publicada: {published}<br/> Likes: {likes}<br/> Descripción: {description}</p>
             </ModalFooter>
           </Modal>
         </div>

@@ -1,6 +1,7 @@
 .imagen{
   flex-direction: column;
   width: 100%;  
+  padding: 5px;
 }
 
 .image{
@@ -9,3 +10,20 @@
   border-radius: 10px;
 }
 
+.modal-footer{
+  justify-content: initial !important;
+}
+
+.titleModal{
+  margin-bottom: 5px;
+}
+
+.userModal{
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.tagsModal{
+  font-size: 15px;
+  margin-bottom: 0px;
+}
