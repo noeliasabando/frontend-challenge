@@ -1,6 +1,6 @@
 # Desafío Tech-k
 
-Para ver el demo de esta app, prsiona [aquí](https://noeliasabando.github.io/frontend-challenge/)
+Para ver el demo de esta app, presiona [aquí](https://noeliasabando.github.io/frontend-challenge/)
 
 ## Instrucciones
 
