@@ -3,3 +3,35 @@
   column-gap: 10px;
   padding: 10px;
 }
+
+@media (max-width: 900px) {
+  .imagenes{
+    column-count: 4;
+    column-gap: 10px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .imagenes{
+    column-count: 3;
+    column-gap: 10px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .imagenes{
+    column-count: 2;
+    column-gap: 10px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .imagenes{
+    column-count: 1;
+    column-gap: 10px;
+    padding: 10px;
+  }
+}

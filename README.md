@@ -1,3 +1,21 @@
+# Desafío Tech-k
+
+Para ver el demo de esta app, prsiona [aquí]()
+
+## Instrucciones
+
+1. Clonar este repositorio
+2. En la carpeta raíz del proyecto ejecutar comando `npm install`  
+3. Para ejecutar utilizar comando `npm start`
+4. Ingresar a [http://localhost:8080/](http://localhost:8080/)
+
+
+
+
+
+
+
+
 # Front End Challenge
 
 ## Objetivo
